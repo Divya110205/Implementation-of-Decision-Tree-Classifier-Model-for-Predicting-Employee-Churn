@@ -72,26 +72,32 @@ dt.predict([[0.5,0.8,9,260,6,0,1,2]])
 ```
 
 ## Output:
-Initial data set:
+### Initial data set:
+
 ![1](https://github.com/Divya110205/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/119404855/a5e6c0f4-c7da-4179-8fa1-4866c0987ea3)
 
-Data info:
+### Data info:
+
 ![2](https://github.com/Divya110205/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/119404855/756e1cc9-134a-4af1-8646-ec789a04decb)
 
-Optimization of null values:
+### Optimization of null values:
+
 ![3](https://github.com/Divya110205/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/119404855/21abfb8e-01e2-43d4-b7a6-74a9a1c0294c)
 
-Assignment of x and y values:
+### Assignment of x and y values:
+
 ![4](https://github.com/Divya110205/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/119404855/1a4ae067-f71e-494b-8f9f-5cf85ea2d28a)
-
-Converting string literals to numerical values using label encoder:
-![7](https://github.com/Divya110205/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/119404855/f3807974-e26b-433c-bc90-6c60bf0eda5b)
-![5](https://github.com/Divya110205/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/119404855/bec05dde-c210-473f-a727-54edf6d8d031)
-
-Accuracy:
 ![6](https://github.com/Divya110205/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/119404855/83978941-5382-41d2-8078-ab22dfd639ef)
 
-Prediction:
+### Converting string literals to numerical values using label encoder:
+
+![5](https://github.com/Divya110205/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/119404855/bec05dde-c210-473f-a727-54edf6d8d031)
+
+### Accuracy:
+![7](https://github.com/Divya110205/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/119404855/f3807974-e26b-433c-bc90-6c60bf0eda5b)
+
+### Prediction:
+
 ![8](https://github.com/Divya110205/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/119404855/b794688c-0a66-41e1-984a-07393cfe4e06)
 
 ## Result:

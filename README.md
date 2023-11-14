@@ -51,14 +51,16 @@ le=LabelEncoder()
 data["salary"]=le.fit_transform(data["salary"])
 data.head()
 
-x=data[["satisfaction_level","last_evaluation","number_project","average_montly_hours",
-"time_spend_company","Work_accident","promotion_last_5years","salary"]]
+x=data[["satisfaction_level","last_evaluation","number_project",
+"average_montly_hours","time_spend_company","Work_accident",
+"promotion_last_5years","salary"]]
 x.head()
 
 y=data["left"]
 
 from sklearn.model_selection import train_test_split
-x_train,x_test,y_train,y_test=train_test_split(x,y,test_size=0.2,random_state=100)
+x_train,x_test,y_train,y_test=train_test_split(x,y,test_size=0.2,
+random_state=100)
 
 from sklearn.tree import DecisionTreeClassifier
 dt=DecisionTreeClassifier(criterion='entropy')
